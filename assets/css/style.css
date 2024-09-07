@@ -1,0 +1,30 @@
+.grid-container {
+display:grid;
+grid-template-columns: 50% 1fr 1fr;
+gap: 10px;
+
+}
+.grid-item {
+background-color: rgb(189, 158, 158);
+border: red 1px solid;
+}
+.grid-item img {
+    width: 100%;
+
+}
+
+.grid-container2 {
+    display:grid;
+    grid-template-columns: 1fr 50% 1fr;
+    gap: 10px;
+    padding-top: 50px;
+    
+    }
+    .grid-item2 {
+        background-color: rgb(189, 158, 158);
+        border: red 1px solid;
+        }
+        .grid-item2 img {
+            width: 100%;
+        
+        }
